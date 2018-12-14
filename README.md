@@ -275,3 +275,5 @@ hasil();
 return 0;
 }
 ```
+**Hasil**
+![Hasil](https://raw.githubusercontent.com/Amirul29/praktikum8/master/program/1.png)
