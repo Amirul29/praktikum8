@@ -1,64 +1,4 @@
-# praktikum8
-
-
-##Latihan.cpp
-
-**Alur Algoritma**
-1. mulai program
-2. masukan rumus untuk mencari maxmin bilangan 
-3. masukan rumus untuk mencari nilai modus dari matrix
-4. masukan rumus untuk mencari kedua matrikx
-5. masukan semua kedalam satu program dengan intuksi awal int
-6. run .
-7. end
-
-**Peseudecode**
-```
-int maxmin
-{
-for(a<--1 to baris do)
-cin >> a;
-if[a] < (min);
-return 0;
-}
-HitungStatistik
-void hitung_modus;
-int a, a[20], f[11];
-{
-for(int i<--0; i<20 to do)
-hitung_modus;
-}
-jumlah_matriks(input matrik1, matrik2: matriks; baris,
-kolom: integer): matriks
-jumlah: matriks
-for x ? 1 to baris do
-for y ? 1 to kolom do
-jumlah[x,y] ? matrik1[x,y] + matrik2[x,y]
-jumlah_matriks ? jumlah
-
-cout << matrix transponse
-{
-for(x<--0; to do)
-}
-{
-for(y<--0; to do)
-}
-fugsi utama
-int main()
-{
-int maxmin();
-HitungStatistik();
-matrik_1();
-matrik_2();
-transpose_m();
-hasil();
-
-return 0;
-}
-```
-
-**Code Program**
-```#include <iostream>
+#include <iostream>
 #include <conio.h>
 using namespace std;
 int maxmin()
@@ -203,6 +143,7 @@ int matrik2[2][2];
 int matrik3[2][2];
 int temp;
 
+//rumus perkalian matrik
 for (int x = 0;x<2;x++){
 for (int y =0;y<2;y++){
 matrik3[x][y]=0;
@@ -212,6 +153,11 @@ matrik3[x][y]=matrik3[x][y]+temp;
 }
 }
 }
+
+
+
+
+//output matrik hasil perkalian
 cout<<endl;
 cout<<"Matrik hasil perkalian :"<<endl;
 for (int x = 0;x<2;x++){
@@ -274,4 +220,3 @@ hasil();
 
 return 0;
 }
-```
